@@ -1,0 +1,114 @@
+/* CSS Document */
+
+* {margin: 0px;}
+
+html, html a {-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+
+#headerWrapper {left: 0; right: 0;
+	position: fixed;
+	z-index: 200;
+}
+
+#header {height: 63px;
+	width: 1000px;
+	background: url("../images/topBar.png");
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
+#mainSection {width: auto;
+	height: auto;
+	position: relative;
+	z-index: 100;
+}
+
+#home {background: url("../images/photo1b.jpg") 50% 0 no-repeat fixed;
+	min-height: 60em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+}
+
+#home article {height: 28em;
+	position: absolute;
+	top: 9em;
+	width: 100%;
+	color: white;
+}
+
+#homeTextWrapper {margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	width: 800px;
+	height: 265px;
+	background: url("../images/mainTextWrap.png") no-repeat;
+}
+
+#homeText {width: 380px;
+	margin-top: 20px;
+	margin-left: auto; margin-right: auto;
+	font-size: 1.5em;
+	text-align: center;
+	color: #FEF6E6;
+}
+
+#section1 {background-color: #9c8d8d;
+	min-height: 60em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#section1 article {height: 28em;
+	position: absolute;
+	text-align: center;
+	top: 9em;
+	width: 100%; 
+}
+ 
+#section2 {background: url("../images/photo3b.jpg") 50% 0 no-repeat;
+	min-height: 60em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#section2 article {height: 28em;
+	position: absolute;
+	text-align: center;
+	top: 9em;
+	width: 100%; 
+}
+
+#footWrapper {left: 0; right: 0;
+	position: fixed;
+	z-index: 200;
+    bottom: 0; padding-bottom: 1px;
+    width: 100%;
+}
+
+#footSection {height: 5em;
+	width: 290px;
+	background: url("../images/ggLogoBanner2.png");
+	background-repeat: no-repeat;
+	float: right; margin-right: 10px;
+	opacity: 0.30;
+}
+
+#arrows {height: 80px;
+	width: 80px;
+	background: url("../images/arrows.png");
+	background-repeat: no-repeat;
+	float: left; margin-left: 10px;
+	opacity: 0.80;
+}

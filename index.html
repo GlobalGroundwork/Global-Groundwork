@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="description" content="The Mac Guys">
+	<meta name="author" content="SitePoint">
+  
+	<!-- GG Styling -->
+	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+	<link rel="stylesheet" href="CSS/reset.css">
+  
+	<!-- jquery import -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+  
+	<title>Global Groundwork</title>
+  
+</head>
+
+<body>
+
+	<div id="headerWrapper">
+		<div id="header"></div>
+	</div>
+	
+	<div id="mainSection">
+	
+		<section id="home" data-type="background" data-speed="10" class="pages">     
+			<article>
+				<div id="homeTextWrapper">
+				<div id="homeText">
+				</div>
+				</div>
+			</article>
+		</section>
+		
+		<section id="section1" data-type="background" data-speed="10" class="pages">
+			<article>Vocational</article>
+		</section>
+		
+		<section id="section2" data-type="background" data-speed="10" class="pages">
+			<article>Simple Parallax Scroll</article>
+		</section>
+		
+		<section id="section3" data-type="background" data-speed="10" class="pages">
+			<article>Simple Parallax Scroll</article>
+		</section>
+		
+	</div>
+	
+	<div id="footWrapper">
+		<div id="footSection"></div>
+		<div id="arrows"></div>
+	</div>
+	
+	<!-- Text Areas -->
+	<div id="textWrapper">
+	
+	
+	</div> <!-- close for textWrapper -->
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var h = window.innerHeight;
+			setMinHeight (h);
+			console.log(h);
+		});
+		
+		$(window).resize(function() {
+			var h = window.innerHeight;
+			setMinHeight (h);
+		});
+		
+		function setMinHeight (h) {
+			document.getElementById("home").style.minHeight= "" + h + "px";
+			document.getElementById("section1").style.minHeight= "" + h + "px";
+			document.getElementById("section2").style.minHeight= "" + h + "px";
+			document.getElementById("section3").style.minHeight= "" + h + "px";
+		};
+	</script>
+  
+</body>
+
+</html>
