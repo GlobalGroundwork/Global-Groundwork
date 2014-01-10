@@ -25,7 +25,7 @@ html, html a {-webkit-font-smoothing: antialiased;
 	z-index: 100;
 }
 
-#home {background: url("../images/photo1b.jpg") 50% 0 no-repeat fixed;
+#home {background: url("../images/photo1.png") 50% 0 no-repeat fixed;
 	min-height: 60em;
 	margin: 0 auto;
 	width: 100%;
@@ -56,14 +56,45 @@ html, html a {-webkit-font-smoothing: antialiased;
 	color: #FEF6E6;
 }
 
-#section1 {background-color: #9c8d8d;
+#mission1 {background: url("../images/mission1.png") 50% no-repeat;
+	min-height: 18.75em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	z-index: 500;
+}
+
+#mission2 {background: url("../images/mission2.png") 50% no-repeat;
+	min-height: 18.75em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	z-index: 500;
+}
+
+#mission3 {background: url("../images/mission3.png") 50% no-repeat;
+	min-height: 18.75em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	z-index: 500;
+}
+
+#section1 {background: url("../images/photo2.png") 50% 0 no-repeat fixed;
 	min-height: 60em;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 102em;
 	position: relative;
-	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 #section1 article {height: 28em;
@@ -73,17 +104,30 @@ html, html a {-webkit-font-smoothing: antialiased;
 	width: 100%; 
 }
  
-#section2 {background: url("../images/photo3b.jpg") 50% 0 no-repeat;
+#section2 {background: url("../images/photo3.png") 50% 0 no-repeat;
 	min-height: 60em;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 102em;
 	position: relative;
-	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 #section2 article {height: 28em;
+	position: absolute;
+	text-align: center;
+	top: 9em;
+	width: 100%; 
+}
+
+#section3 {background: url("../images/photo4.png") 50% 0 no-repeat;
+	min-height: 60em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+}
+
+#section3 article {height: 28em;
 	position: absolute;
 	text-align: center;
 	top: 9em;
@@ -102,13 +146,14 @@ html, html a {-webkit-font-smoothing: antialiased;
 	background: url("../images/ggLogoBanner2.png");
 	background-repeat: no-repeat;
 	float: right; margin-right: 10px;
+	padding-bottom: 10px;
 	opacity: 0.30;
 }
 
-#arrows {height: 80px;
-	width: 80px;
-	background: url("../images/arrows.png");
+#arrows {height: 40px;
+	width: 40px;
+	background: url("../images/arrow.png");
 	background-repeat: no-repeat;
 	float: left; margin-left: 10px;
-	opacity: 0.80;
+	margin-top: 27px;
 }
