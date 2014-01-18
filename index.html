@@ -8,12 +8,12 @@
 	<meta name="author" content="SitePoint">
   
 	<!-- GG Styling -->
-	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+	<link rel="stylesheet" type="text/css" href="CSS/main2.css">
 	<link rel="stylesheet" href="CSS/reset.css">
   
 	<!-- jquery import -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="js/script.js"></script>
+	<!-- <script src="js/script.js"></script> -->
   
 	<title>Global Groundwork</title>
   
@@ -21,8 +21,8 @@
 
 <body>
 
-	<div id="headerWrapper">
-		<div id="header"></div>
+	<div id="topBannerWrapper">
+		<div id="topBanner"></div>
 	</div>
 	
 	<div id="mainSection">
@@ -35,22 +35,42 @@
 			</article>
 		</section>
 		
-		<div id="mission1"></div>
+		<div id="mission1">
+			<div id="mission1Pict"></div>
+		</div>
 		
 		<section id="section1" data-type="background" data-speed="10" class="pages">
-			<article>Vocational</article>
+			<article>
+				<div id="section1Border">
+					<div id="section1TextWrapper">
+						<div id="homeText1"></div>
+					</div>
+				</div>
+			</article>
 		</section>
 		
-		<div id="mission2"></div>
+		<div id="mission2">
+			<div id="mission2Pict"></div>
+		</div>
 		
 		<section id="section2" data-type="background" data-speed="10" class="pages">
-			<article>Trips</article>
+			<article>
+				<div id="section2TextWrapper">
+					<div id="homeText2"></div>
+				</div>
+			</article>
 		</section>
 		
-		<div id="mission3"></div>
+		<div id="mission3">
+			<div id="mission3Pict"></div>
+		</div>
 		
 		<section id="section3" data-type="background" data-speed="10" class="pages">
-			<article>Marketplace</article>
+			<article>Marketplace
+				<div id="section3TextWrapper">
+					<div id="homeText3"></div>
+				</div>
+			</article>
 		</section>
 		
 	</div>
@@ -69,24 +89,35 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var h = window.innerHeight;
-			var w = window.innerWidth;
-			setMinHeight (h);
+			setSize (h);
 		});
 		
 		$(window).resize(function() {
 			var h = window.innerHeight;
-			var w = window.innerWidth;
-			setMinHeight (h);
+			setSize (h);
 		});
 		
-		function setMinHeight (h) {
+		function setSize (h) {
 			if (h < 1225) {
-				document.getElementById("home").style.minHeight= "" + h + "px";
-				document.getElementById("section1").style.minHeight= "" + h + "px";
-				document.getElementById("section2").style.minHeight= "" + h + "px";
-				document.getElementById("section3").style.minHeight= "" + h + "px";
+				document.getElementById("home").style.height= "" + h + "px";
+				document.getElementById("section1").style.height= "" + h + "px";
+				document.getElementById("section2").style.height= "" + h + "px";
+				document.getElementById("section3").style.height= "" + h + "px";
+				document.getElementById("section1TextWrapper").style.height= "" + h + "px";
+				document.getElementById("section1Border").style.height= "" + h + "px";
+				document.getElementById("section2TextWrapper").style.height= "" + h + "px";
+				
+				var w = window.innerWidth;
+				h = w * 0.063;
+				
+				document.getElementById("topBanner").style.height= "" + h + "px";
+				document.getElementById("topBanner").style.width= "" + w + "px";
 			};
 		};
+		
+		$(window).scroll(function () {
+			var thePoint = $(document).scrollTop();
+		});
 	</script>
   
 </body>

@@ -1,0 +1,193 @@
+/* CSS Document */
+
+* {margin: 0px;}
+
+html, html a {-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+
+#topBannerWrapper {left: 0; right: 0;
+}
+
+#topBanner {background: url("../images/topBar.png") no-repeat;
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 200;
+}
+
+#header {height: 63px;
+	width: 1000px;
+	background: url("../images/topBar.png");
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
+#mainSection {width: auto;
+	height: auto;
+	position: relative;
+	z-index: 100;
+}
+
+#home {background: url("../images/photo1.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#home article {height: 28em;
+	position: absolute;
+	top: 6%;
+	width: 100%;
+	color: white;
+}
+
+#homeTextWrapper {margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 265px;
+	background: url("../images/mainTextWrap.png") no-repeat;
+}
+
+#homeText1 {margin: auto;
+	background: url("../images/section1TextWrap.png");
+}
+
+#section1Border {width: 35%;
+	border-right-color: black;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+#section1TextWrapper {background-color: black;
+	opacity: 0.15;
+}
+
+#section2TextWrapper {background: url("../images/section2TextWrap.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#section3TextWrapper {margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 265px;
+	background: url("../images/mainTextWrap.png") no-repeat;
+}
+
+#mission1 {width: 100%;
+	position: relative;
+	background-color: #FFFAE6;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+#mission1Pict {background: url("../images/mission1.png") 50% no-repeat;
+	min-height: 18.75em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+}
+
+#mission2 {width: 100%;
+	position: relative;
+	background-color: #9AB1DA;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+#mission2Pict {background: url("../images/mission2.png") 50% no-repeat;
+	min-height: 18.75em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+}
+
+#mission3 {width: 100%;
+	position: relative;
+	background: url("../images/mission3Gradient.png") repeat;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+#mission3Pict {background: url("../images/mission3.png") 50% no-repeat;
+	min-height: 18.75em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 102em;
+	position: relative;
+}
+
+#section1 {background: url("../images/photo2.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#section1 article {height: 28em;
+	position: absolute;
+	text-align: center;
+	width: 100%; 
+}
+ 
+#section2 {background: url("../images/photo3.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#section2 article {height: 28em;
+	position: absolute;
+	text-align: center;
+	width: 100%; 
+}
+
+#section3 {background: url("../images/photo4.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#section3 article {height: 28em;
+	position: absolute;
+	text-align: center;
+	top: 85%;
+	width: 100%; 
+}
+
+#footWrapper {left: 0; right: 0;
+	position: fixed;
+	z-index: 200;
+    bottom: 0; padding-bottom: 1px;
+    width: 100%;
+}
+
+#footSection {height: 5em;
+	width: 290px;
+	background: url("../images/ggLogoBanner2.png");
+	background-repeat: no-repeat;
+	float: right; margin-right: 10px;
+	padding-bottom: 10px;
+	opacity: 0.30;
+}
+
+#arrows {height: 40px;
+	width: 40px;
+	background: url("../images/arrow.png");
+	background-repeat: no-repeat;
+	float: left; margin-left: 10px;
+	margin-top: 27px;
+}
