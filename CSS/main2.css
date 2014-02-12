@@ -41,18 +41,11 @@ html, html a {-webkit-font-smoothing: antialiased;
 	background-size: cover;
 }
 
-#home article {height: 28em;
-	position: absolute;
-	top: 6%;
-	width: 100%;
-	color: white;
-}
-
-#homeTextWrapper {margin-left: auto;
-	margin-right: auto;
-	width: 800px;
-	height: 265px;
-	background: url("../images/mainTextWrap.png") no-repeat;
+#homeTextWrapper {background: url("../images/mainTextWrap.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #homeText1 {margin: auto;
